@@ -603,3 +603,8 @@ jQuery(document).ready(function ($) {
 		
 	})(jQuery);
 
+$('#scrolltop').click(function() {
+//    alert('something')
+    $('html, body').animate({ scrollTop: 0 }, 'slow');
+
+});
